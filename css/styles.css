@@ -26,7 +26,7 @@ p {
 }
 
 .container-fluid {
-    padding: 3% 15%;
+    padding: 3% 15% 7%;
 }
 
 .navbar {
@@ -40,7 +40,7 @@ p {
 }
 
 #title {
-    background-color: #ef8172;
+    background-color: #ff4c68;
     color: #fff;
 }
 
@@ -64,10 +64,14 @@ p {
 .title-image {
     width: 60%;
     transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
 }
 
 #features {
     padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
 }
 
 .feature-box {
@@ -77,17 +81,17 @@ p {
 
 .fa-solid {
     font-size: 60px;
-    color: #ef8172;
+    color: #ff4c68;
     padding-bottom: 30px;
 }
 
 .fa-solid:hover {
-    color: #ff4c68;
+    color: #ef8172;
 }
 
 #testimonials {
     text-align: center;
-    background-color: #ef8172;
+    background-color: #ff4c68;
     color: #fff;
 
 }
@@ -99,7 +103,7 @@ p {
 }
 
 #press {
-    background-color: #ef8172;
+    background-color: #ff4c68;
     text-align: center;
     padding-bottom: 3%;
 }
