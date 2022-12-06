@@ -125,3 +125,35 @@ p {
 .pricing-column {
     padding: 3% 2%;
 }
+
+@media (max-width: 1028px) {
+    .title-image {
+        position: static;
+        transform: rotate(0)
+    }
+
+    #title {
+        text-align: center;
+    }
+}
+
+#cta {
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 7% 15%;
+    font-family: "Montserrat";
+    font-weight: 400;
+    color: #fff
+}
+
+#footer {
+    text-align: center;
+    text-decoration: none;
+    padding: 7% 15%;
+}
+
+.icon-item {
+    font-size: 24px;
+    color: black;
+    margin: 25px 30px;
+}
